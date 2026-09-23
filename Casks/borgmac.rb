@@ -12,7 +12,6 @@ cask "borgmac" do
     strategy :github_latest
   end
 
-  depends_on formula: "borgbackup"
   depends_on macos: :sonoma
 
   app "BorgMac.app"
@@ -25,6 +24,12 @@ cask "borgmac" do
   ]
 
   caveats <<~EOS
+    BorgMac drives the `borg` command line tool, which is not installed by this cask
+    because the two Homebrew formulae that provide it conflict with each other:
+
+      brew install borgbackup         # standard
+      brew install borgbackup-fuse    # same, plus FUSE support for mounting archives
+
     Scheduled backups are launchd agents that point at /Applications/BorgMac.app.
     Before uninstalling, turn schedules off inside the app, or use
     `brew uninstall --zap borgmac` to remove them together with the app data.

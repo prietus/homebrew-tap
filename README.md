@@ -8,7 +8,14 @@ Homebrew tap for [BorgMac](https://github.com/prietus/borg), a native macOS clie
 brew install --cask prietus/tap/borgmac
 ```
 
-That pulls in `borgbackup` as a dependency and puts `BorgMac.app` in `/Applications`. The build is signed with a Developer ID and notarized by Apple, so it opens without Gatekeeper prompts.
+That puts `BorgMac.app` in `/Applications`. The build is signed with a Developer ID and notarized by Apple, so it opens without Gatekeeper prompts.
+
+BorgMac drives the `borg` command line tool, which you install separately. The cask does not declare it as a dependency because the two formulae that provide it conflict with each other, so pick one:
+
+```sh
+brew install borgbackup         # standard
+brew install borgbackup-fuse    # same, plus FUSE support for mounting archives
+```
 
 ## Upgrade
 
