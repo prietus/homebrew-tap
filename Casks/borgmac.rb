@@ -4,7 +4,7 @@ cask "borgmac" do
 
   url "https://github.com/prietus/borg/releases/download/v#{version}/BorgMac-#{version}.zip"
   name "BorgMac"
-  desc "Native macOS client for Borg backup repositories (BorgBase, BorgBox, SSH, local)"
+  desc "Native client for Borg backup repositories (BorgBase, BorgBox, SSH and local)"
   homepage "https://borgmac.priet.us/"
 
   livecheck do
@@ -12,8 +12,8 @@ cask "borgmac" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
   depends_on formula: "borgbackup"
+  depends_on macos: :sonoma
 
   app "BorgMac.app"
 
