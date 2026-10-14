@@ -1,6 +1,6 @@
 cask "borgmac" do
-  version "1.7.0"
-  sha256 "f0fcb800b40681354c3c85b4798443bbd3e0df71307b8793f2db9c22b29881a6"
+  version "1.7.1"
+  sha256 "89f83c2ebbd3472ebade3cffcfe96f7932fe391b3cde31d597445b02028ad078"
 
   url "https://github.com/prietus/borg/releases/download/v#{version}/BorgMac-#{version}.zip"
   name "BorgMac"
