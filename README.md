@@ -1,6 +1,6 @@
 # prietus/homebrew-tap
 
-Homebrew tap for [BorgMac](https://github.com/prietus/borg), a native macOS client for [Borg](https://www.borgbackup.org/) backup repositories (BorgBase, BorgBox, SSH and local).
+Homebrew tap for [BorgMac](https://github.com/prietus/borgmac), a native macOS client for [Borg](https://www.borgbackup.org/) backup repositories (BorgBase, BorgBox, SSH and local).
 
 ## Install
 

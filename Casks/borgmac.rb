@@ -2,7 +2,7 @@ cask "borgmac" do
   version "1.7.1"
   sha256 "89f83c2ebbd3472ebade3cffcfe96f7932fe391b3cde31d597445b02028ad078"
 
-  url "https://github.com/prietus/borg/releases/download/v#{version}/BorgMac-#{version}.zip"
+  url "https://github.com/prietus/borgmac/releases/download/v#{version}/BorgMac-#{version}.zip"
   name "BorgMac"
   desc "Native client for Borg backup repositories (BorgBase, BorgBox, SSH and local)"
   homepage "https://borgmac.priet.us/"
