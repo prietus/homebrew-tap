@@ -32,6 +32,15 @@ brew uninstall --cask --zap borgmac    # app + local data, caches, logs and sche
 
 Scheduled backups are launchd agents that point at `/Applications/BorgMac.app`. Turn schedules off inside the app before a plain uninstall, or use `--zap`.
 
+## mopytui
+
+[mopytui](https://github.com/prietus/mopytui) is a terminal client for Mopidy with cover art, Tidal, lyrics and listening stats. It is a formula (macOS on Apple Silicon, Linux x86_64):
+
+```sh
+brew install prietus/tap/mopytui
+brew upgrade mopytui
+```
+
 ## Requirements
 
 macOS 14 (Sonoma) or newer.
