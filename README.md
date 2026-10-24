@@ -35,3 +35,17 @@ Scheduled backups are launchd agents that point at `/Applications/BorgMac.app`. 
 ## Requirements
 
 macOS 14 (Sonoma) or newer.
+
+---
+
+# irkt
+
+[irkt](https://github.com/prietus/irkt) is a terminal IRC client (IRCv3, SASL, inline images).
+
+```sh
+brew install --cask prietus/tap/irkt
+brew upgrade --cask irkt
+brew uninstall --cask --zap irkt   # also removes ~/Library/Application Support/irkt (config with credentials)
+```
+
+Apple Silicon only. The binary is signed with a Developer ID and notarized. Each irkt release updates this cask automatically.
