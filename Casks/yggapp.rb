@@ -1,6 +1,6 @@
 cask "yggapp" do
-  version "0.1.1"
-  sha256 "2aaeac45b3e3028c12e6546c24f7d418fb512a3da321695fe7a08f041d101722"
+  version "0.1.2"
+  sha256 "139a05861d60b10a4903cf418d63b269128265630fd92b2ddac2d6b2efdfab69"
 
   url "https://github.com/prietus/yggapp/releases/download/v#{version}/YggApp-#{version}.dmg"
   name "YggApp"
