@@ -1,6 +1,6 @@
 cask "irkt" do
-  version "0.3.18"
-  sha256 "fcd8a822da077fe000558a469898b98e9cd24f7283d54c49dac376c4c571260b"
+  version "0.3.19"
+  sha256 "c948c5af05057b0e3e70947b3ae59051ec9d01a68f1a02a84ce572d245f534de"
 
   url "https://github.com/prietus/irkt/releases/download/v#{version}/irkt-v#{version}-macos-arm64.zip"
   name "irkt"
