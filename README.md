@@ -58,3 +58,17 @@ brew uninstall --cask --zap irkt   # also removes ~/Library/Application Support/
 ```
 
 Apple Silicon only. The binary is signed with a Developer ID and notarized. Each irkt release updates this cask automatically.
+
+---
+
+# YggApp
+
+[YggApp](https://github.com/prietus/yggapp) is a menu bar client for the [Yggdrasil](https://yggdrasil-network.github.io/) mesh network: it gives your Mac a `200::/7` address and resolves `.ygg` names, alongside your normal internet.
+
+```sh
+brew install --cask prietus/tap/yggapp
+brew upgrade --cask yggapp
+brew uninstall --cask --zap yggapp   # also removes its settings and saved peers
+```
+
+macOS 14 (Sonoma) or newer, Apple Silicon or Intel. Signed with a Developer ID and notarized. On first launch macOS asks you to allow its network extension in System Settings → General → Login Items & Extensions. To remove the extension completely, move YggApp to the Trash from Finder before uninstalling. Each YggApp release updates this cask automatically.
