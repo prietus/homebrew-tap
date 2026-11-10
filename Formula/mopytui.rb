@@ -12,15 +12,15 @@ class Mopytui < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/prietus/mopytui/releases/download/v0.2.6/mopytui-macos-arm64.tar.gz"
-      sha256 "97e74a98989f8e93c8cdcfc3c7341b8725529c7fd30a3fff626c84ca36447144"
+      url "https://github.com/prietus/mopytui/releases/download/v0.2.7/mopytui-macos-arm64.tar.gz"
+      sha256 "a192d8ea3c09ea765a5363f7c2308c0cdac0c60cbbf4176da69f5c6a8f2ee5db"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/prietus/mopytui/releases/download/v0.2.6/mopytui-linux-x86_64.tar.gz"
-      sha256 "072b4f103e43919a71b22b2cfcddd81fd81daf9b636ca7d0359dfabc2c083228"
+      url "https://github.com/prietus/mopytui/releases/download/v0.2.7/mopytui-linux-x86_64.tar.gz"
+      sha256 "95a6e4f20a71ac11cee64c1c318e0774f9f65436c8243162f1c23014697aa8ed"
     end
   end
 
