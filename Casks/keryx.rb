@@ -1,6 +1,6 @@
 cask "keryx" do
-  version "0.1.7"
-  sha256 "8735158ce708b855b646186d066fcba675760a6ba60aa5828e28615fffd6c9f3"
+  version "0.1.8"
+  sha256 "5c762c7330c98b553f090c915e77f54c060a4cd8733314cd8d878b727d569a5c"
 
   url "https://github.com/prietus/keryx/releases/download/v#{version}/Keryx-v#{version}-macOS.zip"
   name "Keryx"
