@@ -1,6 +1,6 @@
 cask "drtagger" do
-  version "0.1.8"
-  sha256 "ae640e0972a12ea4b4af6e949f007b37f01471879eee3bb947014effcf2e1abc"
+  version "0.1.10"
+  sha256 "bbc62cad413cc2025300eeb2546f7fe9cf33ae59b78c23255b8061a28e7d5851"
 
   url "https://github.com/prietus/drtagger-mac/releases/download/v#{version}/drtagger-#{version}.zip"
   name "drtagger"
